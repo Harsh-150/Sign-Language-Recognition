@@ -1,5 +1,5 @@
 """
-test.py
+app.py
 
 Description : This script is used to run and test the trained Sign Language Recognition system.
               It imports the main application from the `slr` module and executes it.

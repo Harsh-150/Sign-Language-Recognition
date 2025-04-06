@@ -70,13 +70,17 @@ To use the Sign Language Recognition System, follow these steps:
 
 1. Ensure that the required dependencies and resources are properly installed and set up.
 
-2. Run the main application
+2. Train the model (if needed)
+    ``` bash
+    python train.py
+    ```
+3. Run the main application
     ``` bash
     python app.py
     ```
-3. The application will open a video stream and start recognizing sign language gestures in real-time.
+4. The application will open a video stream and start recognizing sign language gestures in real-time.
 
-4. Interact with the system by making sign language gestures within the camera's view. The recognized gestures will be displayed on the screen
+5. Interact with the system by making sign language gestures within the camera's view. The recognized gestures will be displayed on the screen
 
 
 Here is a demo of the Sign Language Recognition System in action:
@@ -95,7 +99,7 @@ The Sign Language Recognition System is fully customizable and can be trained to
 3. Make the hand gesture you want to add to the dataset.
 4. Press the alphabate key to save the gesture to the dataset corresponding to the letter.
 5. Add as many gestures as you want to the dataset. More data will result in better accuracy.
-6. After adding all the gestures, press the `esc` key to quit program. Then run the `train.ipynb` jupyter notebook file to train the model on the new dataset.
+6. After adding all the gestures, press the `esc` key to quit program. Then run the `python train.py`  to train the model on the new dataset.
    
 Enjoy your customized Sign Language Recognition System!
 
