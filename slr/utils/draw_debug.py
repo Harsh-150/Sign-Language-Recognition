@@ -108,8 +108,3 @@ def show_fps_log(image, fps, log=""):
         cv.putText(image, log, (90, 22), cv.FONT_HERSHEY_SIMPLEX, 0.60, (0, 0, 0), 1, cv.LINE_AA)
 
     return image
-
-
-
-
-

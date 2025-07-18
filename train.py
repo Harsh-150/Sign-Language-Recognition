@@ -1,14 +1,3 @@
-"""
-train.py
-
-Description : This script trains a Sign Language Recognition model using hand keypoint data.
-              It loads data from a CSV file, trains a neural network using TensorFlow/Keras,
-              and saves both the HDF5 and TFLite versions of the trained model.
-
-Author      : Sam <sam@codingsamrat.com>
-Created     : May 26, 2023
-"""
-
 import numpy as np
 import tensorflow as tf
 from sklearn.model_selection import train_test_split
